@@ -35,21 +35,53 @@ Here i developed the Ecommerce project by laravel and mysql.
 
 ## Product Category List
 
-![image](https://user-images.githubusercontent.com/61417475/172967669-e6fd93af-3fa8-44f3-8602-a66e855c3ea0.png)
+![image](https://user-images.githubusercontent.com/61417475/172974621-6fb0ef26-77f0-4d64-af45-bb04e786fede.png)
 
-## Create Task
+## Add Category
 
-![image](https://user-images.githubusercontent.com/61417475/171529781-0867423d-865d-4d72-a5d7-0afb3cad46db.png)
+![image](https://user-images.githubusercontent.com/61417475/172974674-d4047103-e2a8-4177-8954-d18bc79556be.png)
 
-## Edit Task
+## Edit Category
 
-![image](https://user-images.githubusercontent.com/61417475/171529667-a5b996f3-31b1-498e-8807-d1c190b9b64f.png)
+![image](https://user-images.githubusercontent.com/61417475/172974701-94e1f810-e097-405f-850f-67165ed2b133.png)
 
-## Delete Task
+## Delete Category
 
-![image](https://user-images.githubusercontent.com/61417475/171530110-501e2926-5740-4829-a760-50a088d019ed.png)
+![image](https://user-images.githubusercontent.com/61417475/172974748-4b8bd9af-7d29-4bcc-b6e0-5e9f7cadca04.png)
+
+## Products List
+
+![image](https://user-images.githubusercontent.com/61417475/172974794-7d46fa48-d29c-4d15-906b-5f76af3d62ba.png)
+
+## Add Products
+
+![image](https://user-images.githubusercontent.com/61417475/172974962-815be12f-4fb4-4035-ace1-01aa45fb0b05.png)
+
+## Edit Products
+
+![image](https://user-images.githubusercontent.com/61417475/172974920-ade1b735-fc39-4227-a5f8-678f98d2b3ef.png)
+
+## Delete Products
+
+![image](https://user-images.githubusercontent.com/61417475/172975023-0d96b250-c707-4589-8c9a-a74311aff15f.png)
+
+## Cart Items
+
+![image](https://user-images.githubusercontent.com/61417475/172975110-068b14d7-ff81-43ce-8064-2ff1e75e8261.png)
+
+## Add Cart Items
+
+![image](https://user-images.githubusercontent.com/61417475/172974962-815be12f-4fb4-4035-ace1-01aa45fb0b05.png)
+
+## Edit Cart Items
+
+![image](https://user-images.githubusercontent.com/61417475/172974920-ade1b735-fc39-4227-a5f8-678f98d2b3ef.png)
+
+## Delete Cart Items
+
+![image](https://user-images.githubusercontent.com/61417475/172975672-0f3a7c58-6b7e-49a7-82ee-b53727cc6b24.png)
 
 ## Logout 
 
-![image](https://user-images.githubusercontent.com/61417475/171530556-1d524531-95e7-432e-a424-c26eed5b0dd9.png)
+![image](https://user-images.githubusercontent.com/61417475/172975737-72d5db9e-0a75-4f3c-9ffe-ec65a8750e89.png)
 
