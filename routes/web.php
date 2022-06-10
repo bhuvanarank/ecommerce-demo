@@ -21,6 +21,7 @@ Auth::routes(['login' => 'auth.login']);
 Route::get('/', function () {
 return view('auth.login');
 });
+Route::get('/home', 'MainController@category_list');
 
 Route::get('/category-list', 'MainController@category_list');
 Route::get('/add-category-form', 'MainController@add_category_form');
@@ -28,7 +29,6 @@ Route::post('/add-category', 'MainController@add_category');
 Route::get('/edit-category-form/{id}', 'MainController@edit_category_form');
 Route::post('/update-category', 'MainController@add_category');
 Route::post('/delete-category', 'MainController@delete_category');
-Route::get('/home', 'MainController@category_list');
 
 Route::get('/products', 'MainController@products');
 Route::get('/add-products-form', 'MainController@add_products_form');
@@ -46,4 +46,3 @@ Route::get('/edit-cartitem-form/{id}', 'MainController@edit_cartitem_form');
 Route::post('/delete-cartitem', 'MainController@delete_cartitem');
 
 Route::get('/logout', 'Auth\LoginController@logout');
-

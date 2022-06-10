@@ -64,10 +64,8 @@
         </div>
     </div>
 </div>
-@endsection
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<!-- js functions -->
 <script>
 $(function() { 
     $('#menu3').addClass('active');
@@ -134,3 +132,4 @@ function load_price(){
     });
 }
 </script>
+@endsection

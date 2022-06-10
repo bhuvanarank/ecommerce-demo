@@ -15,6 +15,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+    
+    <!-- Script injection -->
+    <script src="{{ asset('assets/js/jquery.min.js')}}"></script>
+
 </head>
 <body>
     
@@ -73,4 +77,5 @@
 
 </body>
 </html>
+<!-- Script injection -->
 <script src="{{ asset('assets/js/app.js') }}" defer></script>

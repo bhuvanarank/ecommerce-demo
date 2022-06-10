@@ -45,9 +45,8 @@
         </div>
     </div>
 </div>
-@endsection
 
-<script src="{{ asset('assets/js/jquery.min.js')}}"></script>
+<!-- js functions -->
 <script>
 //active menu label
 $(function() { 
@@ -61,3 +60,4 @@ setTimeout(function(){
 },5000);
 
 </script>
+@endsection
