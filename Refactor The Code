@@ -19,8 +19,7 @@ function duration_calculation($vehicle_types, $vehicles_speed, $distance)
 {
     
     print ('<b>'. "Duration of each vehicle to reach destination\n". '</b><br>');
-    for ($i = 0;$i < count($vehicle_typ
-        es);$i++)
+    for ($i = 0;$i < count($vehicle_types);$i++)
     {
         // The boat needs extra 15 min to get ready, so we add + 0.25H
         if ($vehicle_types[$i] == 'boat')
