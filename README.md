@@ -71,11 +71,15 @@ Here i developed the Ecommerce project by laravel and mysql.
 
 ## Add Cart Items
 
-![image](https://user-images.githubusercontent.com/61417475/172974962-815be12f-4fb4-4035-ace1-01aa45fb0b05.png)
+![image](https://user-images.githubusercontent.com/61417475/172976182-f93e1259-07b1-4609-8247-756ad66b554b.png)
+
+## Here products options are loaded based on selected category snd price is loading based on selected products
+
+![image](https://user-images.githubusercontent.com/61417475/172976225-38f91bf9-de2c-4b34-873a-4f1d43cd23bf.png)
 
 ## Edit Cart Items
 
-![image](https://user-images.githubusercontent.com/61417475/172974920-ade1b735-fc39-4227-a5f8-678f98d2b3ef.png)
+![image](https://user-images.githubusercontent.com/61417475/172976405-bcb93302-2045-485a-855c-6a424aca8599.png)
 
 ## Delete Cart Items
 
