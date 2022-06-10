@@ -1,0 +1,56 @@
+<?php
+function transformedArray(array $input_array) : array 
+{
+  $count = 0;                     //Declare a count variable
+  $zeros_array = [];              //Declare a empty array
+  $original_array = $input_array; //Store original array into a new one 
+  $n = count($input_array);       //Total Size of the array
+
+  //Push all the zeros into a empty array
+  for ($i = 0; $i < $n; $i++) 
+  {
+    if ($input_array[$i] == 0) 
+    {
+      array_push($zeros_array, $input_array[$i]);
+    }
+  }
+
+  //Find how many zeros need to be pushed beginning and end of the array 
+  $ttl_zeros_count = count($zeros_array);
+  $half_zeros_count = number_format(round($ttl_zeros_count/2));
+  $zeros_in_beginning = $half_zeros_count;
+  $zeros_in_end = $ttl_zeros_count - $half_zeros_count;
+
+  //Below adds half of the zeros to the beginning of the given array
+  for ($j = 0; $j < $zeros_in_beginning; $j++) 
+  {
+    $input_array[$count++] = 0;
+  }
+
+  //Add other values except zeros from original array to the given array
+  for ($k = 0; $k < $n; $k++) 
+  {
+    if ($original_array[$k] != 0) 
+    {
+      $input_array[$count++] = $original_array[$k]; 
+    }
+  }
+
+  // Below adds another half of the zeros to the end of the array
+  for ($j = 0; $j < $zeros_in_end; $j++) 
+  {
+    $input_array[$count++] = 0;
+  }
+
+  return $input_array;
+}
+
+$array1 = array(3,5,6,0,7,0,1);
+$array2 = array(5,0,0,6,0,8);
+$array3 = array(1,2,3,0,0,0,0);
+$array4 = array(1,2,3);
+print_r(transformedArray($array1));
+print_r(transformedArray($array2));
+print_r(transformedArray($array3));
+print_r(transformedArray($array4));
+?>
